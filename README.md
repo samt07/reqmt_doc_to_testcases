@@ -17,7 +17,7 @@ To run this project, you need the following:
 1. **Clone this repository:**
    Open a terminal and run:
    ```bash
-   git clone [https://github.com/samt07/reqstotestcases.git](https://github.com/samt07/req-doc-to-testcases)
+   git clone [https://github.com/samt07/req-doc-to-testcases.git](https://github.com/samt07/req-doc-to-testcases)
 
 2. **Navigate to the project directory**
     ```bash
