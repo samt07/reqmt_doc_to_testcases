@@ -17,12 +17,12 @@ To run this project, you need the following:
 1. **Clone this repository:**
    Open a terminal and run:
    ```bash
-   git clone [https://github.com/samt07/req-doc-to-testcases.git](https://github.com/samt07/req-doc-to-testcases)
+   git clone [https://github.com/samt07/req_doc_to_testcases.git](https://github.com/samt07/req_doc_to_testcases.git)
 
 2. **Navigate to the project directory**
     ```bash
 
-    cd reqstotestcases
+    cd req_doc_to_testcases
 
 3. **Install required libraries:**
    Run the following command to install all dependencies:
