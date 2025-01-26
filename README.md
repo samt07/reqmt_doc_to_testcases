@@ -33,18 +33,13 @@ To run this project, you need the following:
 # Option 1: Run with Jupyter Notebook (Recommended)
 1. Open the Jupyter Notebook:
     ```bash
-       jupyter notebook req_to_testdoc_automation.ipynb
+       jupyter notebook testcase_automation.ipynb
 2. Follow the instructions in the notebook to execute the code step-by-step.
 
-# Option 2: Run as a Python script
-If you cannot install Jupyter Notebook, convert the notebook into a .py file and run it as a script.
-    ```bash
-        jupyter nbconvert --to script req_to_testdoc_automation.ipynb
-        python req_to_testdoc_automation.ipynb
-# Option 3: Running on Google Colab (No installation Required)
+# Option 2: Running on Google Colab (No installation Required)
 
 1. Go to [Google Colab](https://colab.research.google.com/).  
-2. Click **File > Upload Notebook** and select `req_to_testdoc_automation.ipynb`.  
+2. Click **File > Upload Notebook** and select `testcase_automation.ipynb`.  
 3. Install any required libraries by adding the following code cell at the top of the notebook:
    ```python
    !pip install -r requirements.txt
@@ -62,7 +57,7 @@ OPENAI_API_KEY=
 3. Save the file. Ensure the file extension is .env. It should not be ".env.txt" for example.
 
 ## File Structure
-- `req_to_testdoc_automation.ipynb`: Main notebook containing the code and explanations.
+- `testcase_automation.ipynb`: Main notebook containing the code and explanations.
 - `requirements.txt`: File listing all required Python libraries.
 - `.env`: Environment file for storing the OpenAI API Key (not included in the repository).
 
