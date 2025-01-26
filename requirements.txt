@@ -1,0 +1,6 @@
+python-dotenv
+python-docx
+jupyterlab
+ipywidgets
+openai
+jupyter-dash
