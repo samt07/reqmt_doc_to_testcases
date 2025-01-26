@@ -3,7 +3,7 @@ This repo contains code written in Python to produce test cases from a requireme
 
 ## Features
 - Input your requirements in a ".docx" file
-- Receive a comprehensive list of test cases in a neatly formatted tabe
+- Receive a comprehensive list of test cases in a neatly formatted table as output (streamed like chatgpt interface)
 
 ## Requirements
 To run this project, you need the following:
