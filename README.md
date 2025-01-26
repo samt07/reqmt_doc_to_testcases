@@ -1,5 +1,5 @@
-# req-doc-to-testcases
-This repo contains code written in Python to produce test cases from a requirements document.
+# Automate Test case creation using ChatGPT
+This repo contains code written in Python to produce test cases from a requirements document using the gpt-4o-mini model.
 
 ## Features
 - Input your requirements in a ".docx" file
@@ -17,7 +17,7 @@ To run this project, you need the following:
 1. **Clone this repository:**
    Open a terminal and run:
    ```bash
-   git clone https://github.com/samt07/reqstotestcases.git
+   git clone [https://github.com/samt07/reqstotestcases.git](https://github.com/samt07/req-doc-to-testcases)
 
 2. **Navigate to the project directory**
     ```bash
