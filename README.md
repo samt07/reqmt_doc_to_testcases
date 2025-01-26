@@ -2,13 +2,14 @@
 This repo contains code written in Python to produce test cases from a requirements document.
 
 ## Features
-- [Input a requirements docx file]
-- [Receive a comprehensive list of test cases in a neatly formatted tabe]
+- Input your requirements in a ".docx" file
+- Receive a comprehensive list of test cases in a neatly formatted tabe
 
 ## Requirements
-To run this project, you need the following installed:
+To run this project, you need the following:
 - Python 3.11 or higher
 - (Optional) Jupyter Notebook
+- (Optional) Google Colab account
 - Your OpenAI API Secret Key
 
 ## Installation
