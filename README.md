@@ -1,14 +1,15 @@
-# req-doc-to-testcases
-This repo contains code written in Python to produce test cases from a requirements document.
+# Automate Test case creation using ChatGPT
+This repo contains code written in Python to produce test cases from a requirements document using the gpt-4o-mini model.
 
 ## Features
-- [Input a requirements docx file]
-- [Receive a comprehensive list of test cases in a neatly formatted tabe]
+- Input your requirements in a ".docx" file
+- Receive a comprehensive list of test cases in a neatly formatted table as output (streamed like chatgpt interface)
 
 ## Requirements
-To run this project, you need the following installed:
+To run this project, you need the following:
 - Python 3.11 or higher
-- (Optional) Jupyter Notebook
+- (Recommended) Jupyter Notebook
+- (Easiest) Google Colab account
 - Your OpenAI API Secret Key
 
 ## Installation
@@ -16,12 +17,12 @@ To run this project, you need the following installed:
 1. **Clone this repository:**
    Open a terminal and run:
    ```bash
-   git clone https://github.com/samt07/reqstotestcases.git
+   git clone https://github.com/samt07/req_doc_to_testcases.git
 
 2. **Navigate to the project directory**
     ```bash
 
-    cd reqstotestcases
+    cd req_doc_to_testcases
 
 3. **Install required libraries:**
    Run the following command to install all dependencies:
@@ -32,18 +33,13 @@ To run this project, you need the following installed:
 # Option 1: Run with Jupyter Notebook (Recommended)
 1. Open the Jupyter Notebook:
     ```bash
-       jupyter notebook req_to_testdoc_automation.ipynb
+       jupyter notebook testcase_automation.ipynb
 2. Follow the instructions in the notebook to execute the code step-by-step.
 
-# Option 2: Run as a Python script
-If you cannot install Jupyter Notebook, convert the notebook into a .py file and run it as a script.
-    ```bash
-        jupyter nbconvert --to script req_to_testdoc_automation.ipynb
-        python req_to_testdoc_automation.ipynb
-# Option 3: Running on Google Colab (No installation Required)
+# Option 2: Running on Google Colab (No installation Required)
 
 1. Go to [Google Colab](https://colab.research.google.com/).  
-2. Click **File > Upload Notebook** and select `req_to_testdoc_automation.ipynb`.  
+2. Click **File > Upload Notebook** and select `testcase_automation.ipynb`.  
 3. Install any required libraries by adding the following code cell at the top of the notebook:
    ```python
    !pip install -r requirements.txt
@@ -61,7 +57,7 @@ OPENAI_API_KEY=
 3. Save the file. Ensure the file extension is .env. It should not be ".env.txt" for example.
 
 ## File Structure
-- `req_to_testdoc_automation.ipynb`: Main notebook containing the code and explanations.
+- `testcase_automation.ipynb`: Main notebook containing the code and explanations.
 - `requirements.txt`: File listing all required Python libraries.
 - `.env`: Environment file for storing the OpenAI API Key (not included in the repository).
 
