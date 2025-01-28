@@ -1,5 +1,5 @@
 # Automate Test case creation using ChatGPT
-This repo contains code written in Python to produce test cases from a user uploaded requirements document using OpenAI's gpt-4o-mini model.
+This repo contains code written in Python to generate test cases automatically from a user uploaded requirements document using OpenAI's gpt-4o-mini model.
 
 ## Features
 - Upload your requirements as it is in a word (.docx) file. It can contain any number of sections which might not be related to actual requirements like Approvers, Table of contents, Appendix etc. Just upload as it is.
