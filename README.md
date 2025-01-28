@@ -18,7 +18,6 @@ To run this project, you need the following:
 
 2. **Navigate to the project directory**
     ```bash
-
     cd reqmt_doc_to_testcases
 
 ## 3. Set Up Environment Variables  
