@@ -69,4 +69,4 @@ To run this project, you need the following:
 - `testcase_automation_colab.ipynb`: Jupyter notebook to run in Google Colab.
 -  `testcase-automation-script.py`: To run as a standalone python script locally
 - `.env`: Environment file for storing the OpenAI API Key (not included in the repository).
--  `requirement doc.docx`: Input requirement document. It can be located anywhere but the code only supports .docx files currently.
+-  `reqdoc.docx`: Sample input requirement document. Test by uploading your own document.
