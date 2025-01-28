@@ -21,12 +21,25 @@ To run this project, you need the following:
 
     cd reqmt_doc_to_testcases
 
-3. **Set up Env variable:**
-   3a. Create a ".env" file in the same path.
-   3b. Add OPENAI_API_KEY=youropenaikey
-   3c. Ensure there is no space before or after '='. No quotes needed for the value as well.
-   3d. Save the file as .env
-   3e. Check and ensure it is saved as ".env". It should not look like .env.txt or env.env or anything else. Just .env
+## 3. Set Up Environment Variables  
+
+1. **Create a `.env` file**  
+   - Navigate to the project directory.  
+   - Create a new file named `.env`.  
+
+2. **Add the OpenAI API Key**  
+   - Open the `.env` file in a text editor.  
+   - Add the following line:  
+     ```env
+     OPENAI_API_KEY=youropenaikey
+     ```
+   - Ensure:  
+     - No spaces before or after the `=`.  
+     - No quotes around the value.  
+
+3. **Save the file**  
+   - Save it with the exact name `.env`.  
+   - Verify that it is not saved as `.env.txt`, `env.env`, or any other variation.  
 
 ## Usage
 # Option 1: Run with locally installed Jupyter Notebook (Recommended)
