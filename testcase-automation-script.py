@@ -49,7 +49,7 @@ load_dotenv(override=True)
 api_key = os.getenv('OPENAI_API_KEY')
 
 if api_key and api_key.startswith('sk-proj') and len(api_key)>10:
-    print("API key looks good so far")
+    print("API key looks good!")
 else:
     print("There might be a problem with your API key. Please check!")
     
