@@ -8,8 +8,8 @@ This repo contains code written in Python to produce test cases from a requireme
 ## Requirements
 To run this project, you need the following:
 - Python 3.11 or higher
-- (Optional) Jupyter Notebook
-- (Optional) Google Colab account
+- (Recommended) Jupyter Notebook
+- (Easiest) Google Colab account
 - Your OpenAI API Secret Key
 
 ## Installation
