@@ -54,15 +54,15 @@ To run this project, you need the following:
    3. Set up env variable. Use Google Colab's Keys (typically found on the left side tool bar with a Key image)
       - 3a. Add `OPENAI_API_KEY` as the Secret name and paste your Open AI API Key. Enable the Notebook access option.  
    4. Run the Notebook cell-by-cell by pressing `Shift+Enter`
-   5. For the final cell, after pressing `Shift+Enter`, upload your requirement document once it enables up File Upload widget.
+   5. At the end, upload your requirement document once it enables up File Upload widget.
 
 ## Option 3: Run as a standalone .py python script
    1. Create a .env file as mentioned in Option 1.
    2. Run the following command
-    ```python
-     ipython testcase-automation-script.py
-   3. It will then ask for requriement file path. Provide that.
-   4. Output gets printed. It might look not as appealing as it would in Jupyter notebook, but that can be refined if needed.
+      ```bash
+       ipython testcase-automation-script.py
+   4. It will then ask for requriement file path. Provide that.
+   5. Output gets printed. It might look not as appealing as it would in Jupyter notebook, but that can be refined if needed.
 
 ## File Structure
 - `testcase_automation.ipynb`: Jupyter notebook to run in locally installed jupyter lab.
