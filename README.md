@@ -21,7 +21,7 @@ To run this project, you need the following:
 
     cd reqmt_doc_to_testcases
 
-3. **Set up Env variable**
+3. **Set up Env variable:**
    3a. Create a ".env" file in the same path.
    3b. Add OPENAI_API_KEY=youropenaikey
    3c. Ensure there is no space before or after '='. No quotes needed for the value as well.
@@ -32,10 +32,10 @@ To run this project, you need the following:
 # Option 1: Run with locally installed Jupyter Notebook (Recommended)
    1. Open the Jupyter Notebook:
        ```bash
-          jupyter notebook testcase_automation.ipynb
+          jupyter lab testcase_automation.ipynb
    2. Follow the instructions in the notebook to execute the code cell by cell, by using Shift+Enter key.
 
-# Option 2: Run this on Google Colab (No installation Required)
+# Option 2: Run this on Google Colab (No installation Required.)
 
    1. Go to [Google Colab](https://colab.research.google.com/).  
    2. Click **File > Upload Notebook** and select `testcase_automation_colab.ipynb` from your local cloned repository folder.
