@@ -63,6 +63,8 @@ openai = OpenAI()
 req_doc_system_prompt = "You are provided with a complete requirements specifications document. \
 You are able to decide which content from that document are related to actual requirements, identify each requirement as \
 functional or non-functional and list them all.\n"
+req_doc_system_prompt += "If the document is empty or do not contain requirements or if you cannot extract them, please respond as such.\
+Do not make up your own requirements. \n"
 req_doc_system_prompt += "You should respond in JSON as in this example:"
 req_doc_system_prompt += """
 {
@@ -86,6 +88,7 @@ def req_doc_user_prompt(doc):
     user_prompt += "Please scan through the document and extract only the  actual requirements. For example, ignore sections or \
 paragraphs such as Approvers, table of contents and similar sections which are not really requirements.\
 You must respond in a JSON format"
+    user_prompt += "If the content is empty, respond that there are no valid requirements you could extract and ask for a proper document.\n"
     user_prompt = user_prompt[:25_000] # Truncate if more than 25,000 characters
     return user_prompt
 
@@ -130,6 +133,7 @@ The table will contain the following columns. \
 5.Test case summary\
 6.Test case description\
 7.Success criteria \n"
+system_prompt += "If you are provided with an empty list, ask for a proper requirement doc\n"
 
 # In[11]:
 
