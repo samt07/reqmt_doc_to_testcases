@@ -7,6 +7,9 @@ This repo contains code written in Python to generate test cases automatically f
   
 ## Requirements
 To run this project, you need the following:
+- Google account (to run this in Google Colab)
+- Jupyter Notebook (to run it locally using Jupyter lab)
+- Python 3.11 or higher (to run it locally as python script)
 - Your OpenAI API Secret Key. Get one in few secs from [OpenAi](https://platform.openai.com/settings/organization/api-keys)
 
 ## Installation
