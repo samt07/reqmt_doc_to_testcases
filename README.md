@@ -14,7 +14,7 @@ To run this project, you need the following:
 - Jupyter Notebook (to run it locally using Jupyter lab)
 - Python 3.11 or higher (to run it locally as python script)
 - Your OpenAI API Secret Key. Get one in few secs from [OpenAi](https://platform.openai.com/settings/organization/api-keys)
-- Hugging face account to see this in [HuggingFace Spaces](https://huggingface.co/spaces/Samhugs07/TestCasesFromBRD)
+- Nothing. See this in action on [HuggingFace Spaces](https://huggingface.co/spaces/Samhugs07/TestCasesFromBRD)
 
 ## Installation
 
@@ -48,7 +48,7 @@ To run this project, you need the following:
    - Verify that it is not saved as `.env.txt`, `env.env`, or any other variation.  
 
 ## Usage
-## Option 1: Just goto link: [HuggingFace Spaces](https://huggingface.co/spaces/Samhugs07/TestCasesFromBRD) (Recommended)
+## Option 1 (recommended): Just goto link: [HuggingFace Spaces](https://huggingface.co/spaces/Samhugs07/TestCasesFromBRD)
 
 ## Option 2: Run with locally installed Jupyter Notebook 
    1. Open the Jupyter Notebook:
