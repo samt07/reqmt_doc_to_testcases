@@ -321,6 +321,8 @@ with gr.Blocks(js=force_dark_mode) as demo:
 # Launch Gradio app
 demo.launch(share=True)
 
+input("Press Enter to exit...\n")
+
 
 # In[ ]:
 
