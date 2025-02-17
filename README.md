@@ -2,7 +2,7 @@
 This repo contains code written in Python to generate test cases automatically from a user uploaded requirements document using OpenAI's gpt-4o-mini model. The generated test cases can be downloaded as an xls file.
 
 ## Features
-- The code takes in requirements doc as an input file. The document can contain any number of sections which might not be related to actual requirements like Approvers, Table of contents, Appendix etc. It just needs to be in .docx format.
+- The code takes in requirements doc as an input file. The document can contain any number of sections which might not be related to actual requirements like Approvers, Table of contents, Appendix etc. It just needs to be in `.docx` format.
 - Generates a comprehensive list of test cases for each requirement in a neatly formatted table as output (streamed like chatgpt interface).
 - Download the test cases as .xls file.
 - UI is built using Gradio for a rich user experience.
