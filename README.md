@@ -68,7 +68,7 @@ To run this project, you need the following:
 ## Option 3: Run as a standalone .py python script
    1. Create a .env file as mentioned above.
    2. Install dependenices by running this command
-    ```bash
+      ```bash
        pip install -r requirements.txt
    3. Run the following command
       ```bash
