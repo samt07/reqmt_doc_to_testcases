@@ -51,10 +51,11 @@ To run this project, you need the following:
 ## Option 1 (recommended): Just goto link: [HuggingFace Spaces](https://huggingface.co/spaces/Samhugs07/TestCasesFromBRD)
 
 ## Option 2: Run with locally installed Jupyter Notebook 
-   1. Open the Jupyter Notebook:
+   1. Create a .env file as mentioned above
+   2. Open the Jupyter Notebook:
        ```bash
           jupyter lab gradio_testcase_automation.ipynb
-   2. Follow the instructions in the notebook to execute the code cell by cell, by using `Shift+Enter` key.
+   3. Follow the instructions in the notebook to execute the code cell by cell, by using `Shift+Enter` key.
 
 ## Option 3: Run this on Google Colab (No installation Required.)
 
@@ -65,7 +66,7 @@ To run this project, you need the following:
    4. Run the Notebook cell-by-cell by pressing `Shift+Enter`
    5. At the end, upload your requirement document in Gradio UI.
 
-## Option 3: Run as a standalone .py python script
+## Option 4: Run as a standalone .py python script
    1. Create a .env file as mentioned above.
    2. Install dependenices by running this command
       ```bash
