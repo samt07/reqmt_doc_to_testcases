@@ -1,5 +1,5 @@
 # Automate Test case creation using ChatGPT
-This repo contains code written in Python to generate test cases automatically from a user uploaded requirements document using OpenAI's gpt-4o-mini model. The generated test cases can be downloaded as an xls file.
+This repo contains code written in Python to generate test cases automatically from a user uploaded requirements document using OpenAI's gpt-4o-mini model. The generated test cases can then be downloaded as an xls file.
 
 ## Features
 - The code takes in requirements doc as an input file. The document can contain any number of sections which might not be related to actual requirements like Approvers, Table of contents, Appendix etc. It just needs to be in `.docx` format.
@@ -11,8 +11,8 @@ This repo contains code written in Python to generate test cases automatically f
 ## Requirements
 To run this project, you need the following:
 - Google account (to run this in Google Colab)
+- Python 3.11 or higher (to run it locally as python script and also for Jupyter Notebook)
 - Jupyter Notebook (to run it locally using Jupyter lab)
-- Python 3.11 or higher (to run it locally as python script)
 - Your OpenAI API Secret Key. Get one in few secs from [OpenAi](https://platform.openai.com/settings/organization/api-keys)
 - Nothing. Yes, not even OPEN AI Secret Key. See this in action on [HuggingFace Spaces](https://huggingface.co/spaces/Samhugs07/TestCasesFromBRD)
 
@@ -50,12 +50,13 @@ To run this project, you need the following:
 ## Usage
 ## Option 1 (recommended): Just goto link: [HuggingFace Spaces](https://huggingface.co/spaces/Samhugs07/TestCasesFromBRD)
 
-## Option 2: Run with locally installed Jupyter Notebook 
+## Option 2: Run with locally installed Jupyter Notebook. You must have installed Python already. 
    1. Create a .env file as mentioned above
    2. Open the Jupyter Notebook:
        ```bash
           jupyter lab gradio_testcase_automation.ipynb
    3. Follow the instructions in the notebook to execute the code cell by cell, by using `Shift+Enter` key.
+   4. If the Python version is 3.13 or higher, there might be a warning message for some imports. These can be ignored.
 
 ## Option 3: Run this on Google Colab (No installation Required.)
 
@@ -67,19 +68,20 @@ To run this project, you need the following:
    5. At the end, upload your requirement document in Gradio UI.
 
 ## Option 4: Run as a standalone .py python script
-   1. Create a .env file as mentioned above.
-   2. Install dependenices by running this command
+   1. If Python is not installed already, install Python 3.11 or higher version from [here](https://www.python.org/downloads/)
+   2. Create a .env file as mentioned above.
+   3. Install dependenices by running this command
       ```bash
        pip install -r requirements.txt
-   3. Run the following command
+   4. Run the following command
       ```bash
-       ipython gradio_testacse_automation.py
+       ipython gradio_testcase_automation.py
    
 ## File Structure
 - `gradio_testcase_automation.ipynb`: Jupyter notebook to run in locally installed jupyter lab.
 - `gradio_testcase_automation_colab.ipynb`: Jupyter notebook to run in Google Colab.
--  `gradio_testacse_automation.py`: To run as a standalone python script locally
+-  `gradio_testcase_automation.py`: To run as a standalone python script locally
 - `.env`: Environment file for storing the OpenAI API Key (not included in the repository).
 - `requirements.txt`: Contains the required dependencies. Needed only for running as local python script
 -  `reqdoc.docx`: Sample input requirement document.
--  `Lorem ipsum BRD`: To test invalid requirements document.
+-  `Lorem ipsum BRD`: To test a sample invalid requirements document.
