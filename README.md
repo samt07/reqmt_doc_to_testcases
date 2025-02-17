@@ -69,7 +69,7 @@ To run this project, you need the following:
    1. Create a .env file as mentioned above.
    2. Install dependenices by running this command
     ```bash
-      pip install -r requirements.txt
+       pip install -r requirements.txt
    3. Run the following command
       ```bash
        ipython gradio_testacse_automation.py
